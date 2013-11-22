@@ -12,13 +12,11 @@ Tags;boring, dull, void of life;
 	width: 960px;
 	margin: 0 auto;
 }
-
 #header{
 	text-align: center;
 }
 .post_snippet{
-	border: 2px solid #ccc;
 	margin: 40px 0px;
 	padding: 20px;
-	-moz-border-radius: 10px 10px 10px 0px;
-} 
+	width: 550px;
+}
