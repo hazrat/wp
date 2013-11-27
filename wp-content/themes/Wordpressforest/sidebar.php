@@ -1,7 +1,7 @@
 <div id='sidebar_right'>
 	<ul>
 		<?php /*lets widgetize up in here!*/
-		if (!function_exists(dynamic_sidebar) || !dynamic_sidebar()): 
+		if(!function_exists('dynamic_sidebar') || !dynamic_sidebar()) : 
 			?>
 		<li><?php get_search_form(); ?></li>
 		<?php wp_list_pages('title_li=<h3>Pages</h3>');?>
@@ -13,6 +13,9 @@
 		</li>
 
 		<?php wp_list_categories('title_li=<h3>Categories</h3>'); ?>
+		<ul>
+			<li><?php wp_loginout(); ?></li>
+		</ul>
 		<?php endif; ?>
 	</ul>
 </div>

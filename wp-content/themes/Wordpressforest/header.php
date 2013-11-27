@@ -4,7 +4,7 @@
 	<meta http-equiv='Content-Type' content='<?php bloginfo('html_type');?>;charset=<?php bloginfo('charset');?>'/>
 
 
-	<title><?php bloginfo('name');?></title>
+	<title><?php bloginfo('name');?><?php wp_title('||');?></title>
 	<link rel="stylesheet"  href='<?php bloginfo("stylesheet_url");?>' type='text/css' media='screen' />
 </head>
 <body>
