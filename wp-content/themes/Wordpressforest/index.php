@@ -15,12 +15,4 @@
 		<?php endif; ?>
 		<!--End content-->
 
-		<!--Begin Footer-->
-		<div id='footer'>
-			<p><?php bloginfo('name'); ?> is proudly powered by <a href='http://wordpress.org'>Wordpress</a> | <a href="<?php bloginfo('comments_rss2_url');?>">Full post RSS</a> and <a href="<?php bloginfo('comments_rss2_url');?>">Comments RSS</a>.</p>
-		</div>
-		<!--End Footer-->
-
-</div>
-</body>
-</html>  
+<?php include(TEMPLATEPATH . '/footer.php'); ?>		

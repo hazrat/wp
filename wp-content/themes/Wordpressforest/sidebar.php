@@ -1,4 +1,4 @@
-<div id='sidebar'>
+<div id='sidebar_right'>
 	<ul>
 		<?php /*lets widgetize up in here!*/
 		if (!function_exists(dynamic_sidebar) || !dynamic_sidebar()): 
