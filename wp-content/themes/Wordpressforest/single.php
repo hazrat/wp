@@ -13,6 +13,7 @@
 		<h2>Enjoy this article ?</h2>
 		<p>If you have enjoyed this article please subscribe to our <a href="<?php bloginfo('rss2_url'); ?>">RSS feed</a></p>
 	</div>
+	<?php comments_template(); ?>
 	</div>
 <?php endwhile; else: ?>
 	<h3>Sorry but we could not find what you are looking for.</h3>
