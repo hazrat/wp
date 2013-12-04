@@ -15,4 +15,4 @@
 		<?php endif; ?>
 		<!--End content-->
 
-		
+		<?php include(TEMPLATEPATH . '/footer.php'); ?>
