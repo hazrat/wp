@@ -9,10 +9,7 @@
 		<?php the_content(); ?>
 		<?php the_tags(); ?>
 		<?php edit_post_link('Edit this post.....','<p>','</p>'); ?>
-		<div class='promote'>
-		<h2>Enjoy this article ?</h2>
-		<p>If you have enjoyed this article please subscribe to our <a href="<?php bloginfo('rss2_url'); ?>">RSS feed</a></p>
-	</div>
+		
 	<?php comments_template(); ?>
 	</div>
 <?php endwhile; else: ?>
@@ -20,4 +17,3 @@
 	<div><?php get_search_form(); ?></div>
 <?php endif; ?>
 </div>
-<?php include(TEMPLATEPATH . '/footer.php'); ?>
